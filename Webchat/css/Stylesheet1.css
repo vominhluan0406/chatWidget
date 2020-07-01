@@ -1,7 +1,6 @@
 ﻿/* Chat containers */
 body {
     margin: 0 auto;
-    max-width: 1000px;
     padding: 0 20px;
 }
 
@@ -11,6 +10,7 @@ body {
     border-radius: 5px;
     padding: 10px;
     margin: 10px 0;
+    position: absolute;
 }
 
 .darker {
@@ -65,6 +65,7 @@ body {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
+    
 }
 #input2 {
     width: 18%;
@@ -73,10 +74,15 @@ body {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    background-color:coral
+    background-color:coral;
 }
 .messageArea{
     border: 3px solid rgb(211, 163, 163);
     padding: 12px 20px;
     background-color: rgb(204, 232, 233);
+    max-width: 30%;
+    bottom: 0px;
+    position: absolute;
+    max-height: 500px;
+    overflow:auto;
 }
