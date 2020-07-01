@@ -1,0 +1,17 @@
+C:\Users\Luan\Desktop\Webchat\Webchat\bin\Debug\Webchat.exe.config
+C:\Users\Luan\Desktop\Webchat\Webchat\bin\Debug\Webchat.exe
+C:\Users\Luan\Desktop\Webchat\Webchat\bin\Debug\Webchat.pdb
+C:\Users\Luan\Desktop\Webchat\Webchat\bin\Debug\log4net.dll
+C:\Users\Luan\Desktop\Webchat\Webchat\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Luan\Desktop\Webchat\Webchat\bin\Debug\SuperSocket.Common.dll
+C:\Users\Luan\Desktop\Webchat\Webchat\bin\Debug\SuperSocket.Facility.dll
+C:\Users\Luan\Desktop\Webchat\Webchat\bin\Debug\SuperSocket.SocketBase.dll
+C:\Users\Luan\Desktop\Webchat\Webchat\bin\Debug\SuperSocket.SocketEngine.dll
+C:\Users\Luan\Desktop\Webchat\Webchat\bin\Debug\SuperWebSocket.dll
+C:\Users\Luan\Desktop\Webchat\Webchat\bin\Debug\log4net.xml
+C:\Users\Luan\Desktop\Webchat\Webchat\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Luan\Desktop\Webchat\Webchat\obj\Debug\Webchat.csproj.CoreCompileInputs.cache
+C:\Users\Luan\Desktop\Webchat\Webchat\obj\Debug\Webchat.csproj.CopyComplete
+C:\Users\Luan\Desktop\Webchat\Webchat\obj\Debug\Webchat.exe
+C:\Users\Luan\Desktop\Webchat\Webchat\obj\Debug\Webchat.pdb
+C:\Users\Luan\Desktop\Webchat\Webchat\obj\Debug\Webchat.csprojAssemblyReference.cache
