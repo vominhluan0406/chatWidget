@@ -1,8 +1,18 @@
 $(function () {
-    var name = prompt('Name: ');
     var path = 'data/data.txt';
-    var data = $.get(path);
-    console.log(data);  
+    var name='';
+    function Nhapten(){
+        name = prompt('Name: '); //Tên người dùng
+    }
+    Nhapten();
+    $.get(path, function (file) {
+        var data = $.parseJSON(file)
+        while(data[name]==undefined){
+            alert('Tên không chính xác, nhập tên khác!');
+            Nhapten();
+        }
+        console.log(data[name].historyMessage);
+    }, 'text');
     $('#input2').click(function () {
         var data = $('#input1').val();
         $('#input1').val();

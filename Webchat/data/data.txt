@@ -1,22 +1,21 @@
-[
-    {
+{   "Neymar":{
         "name":"Neymar",
-        'image':'img/person1.png'
-        "hisMessage":{
-            "Messi":[{"Hi Messi":'1/7/2020-8:44:00'},"sNeymar","rWow"],
+        "image":"img/person1.png",
+        "historyMessage":{
+            "Messi":[{"Hi Messi":"1/7/2020-8:44:00"},"sNeymar","rWow"],
             "Kaka":["sHi Kaka","rOk"]
         }
     },
-    {
+    "Kaka":{
         "name":"Kaka",
-        "hisMessage":{
+        "historyMessage":{
             "Neymar":["rHi Kaka","sOk"]
         }
     },
-    {
+    "Messi":{
         "name":"Messi",
-        "hisMessage":{
+        "historyMessage":{
             "Neymar":["rHi Messi","rNeymar","sWow"]
         }
     }
-]
+}
