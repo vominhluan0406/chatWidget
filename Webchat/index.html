@@ -13,37 +13,39 @@
     <script src="js/control.js"></script>
   </head>
   <body>
-    <!-- Chat -->
-    <div id="messageArea1"></div>
-
+    <!-- Danh sách bạn bè -->
+    <dir id="top"></dir>
+    <div id="bottom">
+      <!-- Chat -->
+      <div id="messageArea1"></div>
+      <div id="messageArea2"></div>
+    </div>
     <script>
       $(function () {
         var m = [
           {
-            'message': "Hello",
-            'Send': true,
+            message: "Hello",
+            Send: true,
           },
           {
-            'message': "Hello",
-            'Send': true,
+            message: "Hello",
+            Send: true,
           },
           {
-            'message': "Hello",
-            'Send': true,
+            message: "Hello",
+            Send: true,
           },
           {
-            'message': "Wow",
-            'Send': false,
+            message: "Wow",
+            Send: false,
           },
           {
-            'message': "Hello",
-            'Send': false,
+            message: "Hello",
+            Send: false,
           },
         ];
-        for(let mm in m){
-            console.log(m[mm]['message'])
-        }
-        $("#messageArea1").myWidget({message:m});
+        $("#messageArea1").myWidget({ message: m });
+        $("#messageArea2").myWidget({ message: m });
       });
     </script>
   </body>

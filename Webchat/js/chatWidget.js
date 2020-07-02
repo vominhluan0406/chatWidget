@@ -8,7 +8,7 @@
         _create: function () {
             this.element.addClass('messageArea');
             for (var m in this.options.message) {
-                console.log(this.options.message[m])
+                // console.log(this.options.message[m])
                 this.div2 = $('<div>').appendTo(this.element);
                 this.img = $('<img>', { 'src': this.options.img }).appendTo(this.div2);
                 this.text = $('<p>', { text: this.options.message[m]['message'] }).appendTo(this.div2);

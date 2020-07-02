@@ -10,7 +10,7 @@ body {
     border-radius: 5px;
     padding: 10px;
     margin: 10px 0;
-    position: absolute;
+    position: relative;
 }
 
 .darker {
@@ -82,7 +82,16 @@ body {
     background-color: rgb(204, 232, 233);
     max-width: 30%;
     bottom: 0px;
-    position: absolute;
     max-height: 500px;
     overflow:auto;
+    float: left;
+    margin-right: 10px;
+}
+#friend{
+    align-items: center;
+}
+#top{
+    height: 150px;
+    border-radius: 10px;
+    background-color: darkgoldenrod;
 }
