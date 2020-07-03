@@ -10,7 +10,7 @@ $(document).ready(function () {
     for (var i in value.friend) {
         var idCurrent = value.friend[i];//Key người hiện tại
         var valueID = JSON.parse(localStorage.getItem(idCurrent));//Value người hiện tại
-        var valueMessage = value.historyMessage[idCurrent];//Tin nhắn vs người hiện tại
+        
         this.div = $('<div>', { id: idCurrent + "top" }).appendTo($('#top'));
         $('#' + idCurrent + "top").nameWidget({ name: idCurrent, img: valueID.image });
 
