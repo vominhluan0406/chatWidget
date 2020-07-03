@@ -14,4 +14,3 @@ C:\Users\Luan\Desktop\Webchat\Webchat\obj\Debug\Webchat.csproj.CoreCompileInputs
 C:\Users\Luan\Desktop\Webchat\Webchat\obj\Debug\Webchat.csproj.CopyComplete
 C:\Users\Luan\Desktop\Webchat\Webchat\obj\Debug\Webchat.exe
 C:\Users\Luan\Desktop\Webchat\Webchat\obj\Debug\Webchat.pdb
-C:\Users\Luan\Desktop\Webchat\Webchat\obj\Debug\Webchat.csprojAssemblyReference.cache
