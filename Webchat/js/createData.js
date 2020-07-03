@@ -10,11 +10,19 @@ var neymar = {
     "friend": [
         "Messi",
         "Ronaldo",
-        "Neymar"
+        "Kaka"
     ],
-    "image": "img/person3.png"
+    "image": "img/person2.png"
 }
 var messi = {
+    "friend": [
+        "Kaka",
+        "Ronaldo",
+        "Neymar"
+    ],
+    "image": "img/person1.png"
+}
+var kaka = {
     "friend": [
         "Messi",
         "Ronaldo",
@@ -47,5 +55,6 @@ var neymar_messi = [
 localStorage.setItem("Ronaldo", JSON.stringify(ronaldo));
 localStorage.setItem("Neymar", JSON.stringify(neymar));
 localStorage.setItem("Messi", JSON.stringify(messi));
+localStorage.setItem("Kaka", JSON.stringify(kaka));
 localStorage.setItem("Neymar Messi", JSON.stringify(neymar_messi));
 localStorage.setItem("Neymar Ronaldo", JSON.stringify(neymar_messi));

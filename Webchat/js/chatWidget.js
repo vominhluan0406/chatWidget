@@ -3,7 +3,7 @@
         options: {
             img: '',
             imgfriend:'',
-            message: [], //[{'massage':'....','Send':'currentUser']
+            message: [], //[{'massage':'....','Sender':'currentUser']
             currentUser: '',
             friend:'',
             new:false
