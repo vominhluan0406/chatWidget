@@ -58,7 +58,7 @@ body {
     padding: 10px;
     border-radius: 5px;
 }
-#input1 {
+.input1 {
     width: 80%;
     border: 1px solid blue;
     border-radius: 5px;
@@ -67,7 +67,7 @@ body {
     box-sizing: border-box;
     
 }
-#input2 {
+.input2 {
     width: 18%;
     border: 1px solid blue;
     border-radius: 5px;
@@ -95,3 +95,20 @@ body {
     border-radius: 10px;
     background-color: darkgoldenrod;
 }
+/* Icon bạn bè */
+.icon {
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    float: left;
+    box-sizing: content-box;
+  }
+  .icon img {
+    width: 30px;
+    max-width: 30px;
+
+  }
+  .icon button {
+    margin: 10px;
+    max-height: 80px;
+  }

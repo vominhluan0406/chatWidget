@@ -10,43 +10,12 @@
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="js/websocket.js"></script>
     <script src="js/chatWidget.js"></script>
-    <script src="js/control.js"></script>
+    <script src="js/nameWidget.js"></script>
   </head>
   <body>
     <!-- Danh sách bạn bè -->
     <dir id="top"></dir>
-    <div id="bottom">
-      <!-- Chat -->
-      <div id="messageArea1"></div>
-      <div id="messageArea2"></div>
-    </div>
-    <script>
-      $(function () {
-        var m = [
-          {
-            message: "Hello",
-            Send: true,
-          },
-          {
-            message: "Hello",
-            Send: true,
-          },
-          {
-            message: "Hello",
-            Send: true,
-          },
-          {
-            message: "Wow",
-            Send: false,
-          },
-          {
-            message: "Hello",
-            Send: false,
-          },
-        ];
-        $("#messageArea1").myWidget({ message: m });
-        $("#messageArea2").myWidget({ message: m });
-      });
-    </script>
+    <div id="bottom"></div>
+    <script src="js/control.js"></script>
   </body>
 </html>

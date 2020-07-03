@@ -14,7 +14,6 @@ $(function () {
         _setOptions: function () {
             // _super and _superApply handle keeping the right this-context
             this._superApply(arguments);
-            this._refresh();
         },
 
         // _setOption is called for each individual option that is changing

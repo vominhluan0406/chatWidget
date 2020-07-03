@@ -2,26 +2,32 @@
     $.widget("custom.myWidget", {
         options: {
             img: '',
-            message: [],
-            currentUser: ''
+            imgfriend:'',
+            message: [], //[{'massage':'....','Send':'true']
+            currentUser: '',
+            friend:''
         },
         _create: function () {
             this.element.addClass('messageArea');
             for (var m in this.options.message) {
                 // console.log(this.options.message[m])
                 this.div2 = $('<div>').appendTo(this.element);
-                this.img = $('<img>', { 'src': this.options.img }).appendTo(this.div2);
+                
                 this.text = $('<p>', { text: this.options.message[m]['message'] }).appendTo(this.div2);
                 if (this.options.message[m]['Send'] == true) {
-                    this.div2.addClass('container');
+                    this.img = $('<img>', { 'src': this.options.img }).appendTo(this.div2);
+                    this.div2.addClass('container darker');
                     this.img.addClass('right');
                 } else {
-                    this.div2.addClass('container darker');
+                    this.img = $('<img>', { 'src': this.options.imgfriend }).appendTo(this.div2);
+                    this.div2.addClass('container');
                 }
             }
             this.div1 = $('<div>', { id: 'input-Chat' }).appendTo(this.element);
-            this.inp1 = $('<input>', { type: 'text', id: 'input1' }).appendTo(this.div1);
-            this.inp2 = $('<input>', { type: 'button', value: 'Send', id: 'input2' }).appendTo(this.div1);
+            this.inp1 = $('<input>', { type: 'text', id: 'inp1'+this.options.friend }).appendTo(this.div1);
+            this.inp2 = $('<input>', { type: 'button', value: 'Send', id: 'inp2'+this.options.friend }).appendTo(this.div1);
+            this.inp1.addClass('input1');
+            this.inp2.addClass('input2');
         },
         _setOptions: function () {
             // _super and _superApply handle keeping the right this-context
